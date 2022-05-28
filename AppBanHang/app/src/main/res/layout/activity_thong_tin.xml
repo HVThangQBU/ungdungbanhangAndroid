@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Thông tin"
+        android:background="#EACB7A"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolbarthongtin"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorprofile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Thông tin về chúng tôi"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:background="@drawable/khung"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="30dp">
+            <TextView
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/mauxanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ : Nguyễn Văn Linh, Đồng Phú, Đồng Hới, Quảng Bình, Vietnam"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/khung"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:backgroundTint="@color/mauxanh"
+            android:layout_margin="30dp">
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.example.appbanhangadmin.activity.ThongTinActivity" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

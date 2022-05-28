@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appbanhangadmin.activity.ThemSanPhamActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_Themsanpham"
+        app:title="Thêm sản phẩm"
+        android:background="#EACB7A"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout1"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_Themsanpham"
+            android:layout_margin="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Tên sản phẩm"
+                android:id="@+id/themtensanpham"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout2"
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        android:layout_margin="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/themgiasanpham"
+            android:inputType="number"
+            android:hint="Giá sản phẩm"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:weightSum="5"
+            android:id="@+id/layout3"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                app:layout_constraintTop_toBottomOf="@+id/layout2"
+                android:layout_weight="4"
+                android:layout_margin="5dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/themhinhanh"
+                android:inputType="text"
+                android:hint="Hình ảnh sản phẩm"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imgcamera"
+                android:src="@drawable/ic_baseline_photo_camera_24"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout4"
+        app:layout_constraintTop_toBottomOf="@+id/layout3"
+        android:layout_margin="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/themmotasapham"
+            android:inputType="text"
+            android:hint="Mô tả sản phẩm"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spinner_loaisanpham"
+        app:layout_constraintTop_toBottomOf="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnthemsanpham"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_loaisanpham"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Thêm sản phẩm"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/background_button"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
