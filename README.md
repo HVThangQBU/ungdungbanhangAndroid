@@ -64,4 +64,32 @@
  - Input: Chọn sản phẩm cần xóa.
  - Process: Lấy các thông tin của sản phẩm và hiển thị ra màn hình để chắc chắn rằng Admin xóa đúng sản phẩm cần thiết.
  - Output: Load lại danh sách sản phẩm để biết được đã xoá thành công Sản phẩm  ra khỏi CSDL
+
+![image](https://user-images.githubusercontent.com/57425057/204078387-d8fba56e-10db-4371-b5ca-94250f07b4fd.png)
+
+![image](https://user-images.githubusercontent.com/57425057/204078392-152a0627-46ee-48be-be8e-b7fc59a07836.png)
+![image](https://user-images.githubusercontent.com/57425057/204078394-40aa9473-088a-436b-a718-aa96eea97a8e.png)
+![image](https://user-images.githubusercontent.com/57425057/204078402-394057f3-0371-4c44-beb1-137964b0e97d.png)
+![image](https://user-images.githubusercontent.com/57425057/204078404-a9831347-65db-4456-af32-3e52d5746c16.png)
+![image](https://user-images.githubusercontent.com/57425057/204078416-2fb4c227-f8d2-46e3-80ed-9d706cd6f9f9.png)
+![image](https://user-images.githubusercontent.com/57425057/204078417-74f01280-4a06-4b51-9f18-ee7f15fb31c7.png)
+![image](https://user-images.githubusercontent.com/57425057/204078419-413f948e-b540-4303-8bb9-7fd16537e322.png)
+![image](https://user-images.githubusercontent.com/57425057/204078422-2f7279b1-59ea-4ae4-af4a-694a57ae10ac.png)
+
+![image](https://user-images.githubusercontent.com/57425057/204078425-a7c42ff2-e646-46f1-a014-e507788dffb7.png)
+![image](https://user-images.githubusercontent.com/57425057/204078429-9d3871b6-b979-41eb-a9ee-c097893b6922.png)
+![image](https://user-images.githubusercontent.com/57425057/204078434-e26a8b7e-be9c-4fc5-ac80-01b065cf32e9.png)
+![image](https://user-images.githubusercontent.com/57425057/204078438-8940c72d-0954-427e-a4c6-a76637e6708c.png)
+![image](https://user-images.githubusercontent.com/57425057/204078439-a4051ba8-84bf-455b-88b5-b1bb4ef569e1.png)
+
+
+
+
+
+
+
+
+
+
+
  
