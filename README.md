@@ -2,6 +2,7 @@
 <h1 align='center'>
   ungdungbanhangAndroid
 </h1>
+
 ## Phân tích chức năng của từng đối tượng
  - Khách hàng:
    + Trang chủ
@@ -64,9 +65,8 @@
  - Input: Chọn sản phẩm cần xóa.
  - Process: Lấy các thông tin của sản phẩm và hiển thị ra màn hình để chắc chắn rằng Admin xóa đúng sản phẩm cần thiết.
  - Output: Load lại danh sách sản phẩm để biết được đã xoá thành công Sản phẩm  ra khỏi CSDL
-
+ ### Một số hình ảnh ứng dụng 
 ![image](https://user-images.githubusercontent.com/57425057/204078387-d8fba56e-10db-4371-b5ca-94250f07b4fd.png)
-
 ![image](https://user-images.githubusercontent.com/57425057/204078392-152a0627-46ee-48be-be8e-b7fc59a07836.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078394-40aa9473-088a-436b-a718-aa96eea97a8e.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078402-394057f3-0371-4c44-beb1-137964b0e97d.png)
@@ -75,7 +75,6 @@
 ![image](https://user-images.githubusercontent.com/57425057/204078417-74f01280-4a06-4b51-9f18-ee7f15fb31c7.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078419-413f948e-b540-4303-8bb9-7fd16537e322.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078422-2f7279b1-59ea-4ae4-af4a-694a57ae10ac.png)
-
 ![image](https://user-images.githubusercontent.com/57425057/204078425-a7c42ff2-e646-46f1-a014-e507788dffb7.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078429-9d3871b6-b979-41eb-a9ee-c097893b6922.png)
 ![image](https://user-images.githubusercontent.com/57425057/204078434-e26a8b7e-be9c-4fc5-ac80-01b065cf32e9.png)
